@@ -14,5 +14,8 @@ class plop {
     {
         echo "destructeur";
     }
-
+    public function getName($name)
+    {
+        return $name;
+    }
 }
